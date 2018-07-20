@@ -37,6 +37,7 @@ validate()
   render() {
     return (
      <div>
+		Hello
     Count: {this.state.count}  Flag:{this.state.flag}    <button onClick={this.handle}>ClickMe!!</button>
      </div>
     );
